@@ -1,20 +1,15 @@
-import Student from './components/Student'
-import Card from './components/Card'
+import Navbar from "./components/Navbar";
+import {Route,Routes} from "react-router-dom";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Tasks from "./pages/Tasks";
+
+
 function App() {
   return (
-    <div>
-      <Student 
-      name="Rinki"
-      course="BCA"
-      Roll="101"/>
-       <Card 
-       name="Rinku"
-      course="MCA"
-      Roll="102"/>
-    </div>
-   
-  
+    <div>App</div>
   )
 }
 
-export default App
+export default App;
