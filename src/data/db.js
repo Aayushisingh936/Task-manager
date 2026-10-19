@@ -1,4 +1,3 @@
-import db from "./data/db";
 const tasks =[
     {
         id: 1,
@@ -31,10 +30,4 @@ const tasks =[
 
 ]
 
-function db() {
-  return (
-    <div>db</div>
-  )
-}
-
-export default db;
+export default tasks;
